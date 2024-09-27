@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { TestLogicComponent } from './test-logic.component';
 
 describe('TestLogicComponent', () => {
