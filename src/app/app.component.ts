@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
-import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
+import { RouterLink, RouterLinkActive, RouterOutlet, RouterModule } from '@angular/router';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { TestLogicComponent } from './test-logic/test-logic.component';
-import { BannerComponent } from './banner/banner.component';
+// import { BannerComponent } from './banner/banner.component';
+import { HomeComponent } from './home/home.component';
 
 
 @Component({
@@ -12,8 +13,10 @@ import { BannerComponent } from './banner/banner.component';
     [RouterOutlet,
       NavBarComponent,
       TestLogicComponent,
-      BannerComponent,
+      // BannerComponent,
+      HomeComponent,
       RouterLink,
+      RouterModule,
       RouterLinkActive],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
