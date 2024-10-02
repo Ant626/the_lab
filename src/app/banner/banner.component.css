@@ -1,5 +1,6 @@
 #greet{
 display: flex;
  justify-content: center;
- margin: 5px;
+ padding-left: 15px;
+ margin: 50px;
 }
