@@ -1,6 +1,4 @@
-import { Component, Input, Output } from '@angular/core';
-
-
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-test-logic',
@@ -11,10 +9,9 @@ import { Component, Input, Output } from '@angular/core';
 })
 export class TestLogicComponent {
 
-  constructor() { }
 
+  }
 
-}
 
 
 
