@@ -7,7 +7,18 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './test-logic.component.html',
   styleUrl: './test-logic.component.css'
 })
-export class TestLogicComponent {
+export class TestLogicComponent implements OnInit{
+
+
+  ngOnInit(){
+   
+    function myName(){
+      console.log('Tony')
+    }
+    myName();
+
+
+  }
 
 
   }
